@@ -27,7 +27,12 @@ h1, h2 {color:orange}; h3, p, form { margin: 0; padding: 0; }
 /*-- Cabecera --------------------------------------------------------*/
 #cabecera  #logo { float: left;  }
 #cabecera #buscador { float: right; }
-h1 {color: #ff0000};
+h1 {
+ color: #ff0000;
+ border: 2px solid darkslategrey;
+ border-radius: 24px;
+ padding: 0.5em;
+}
 .relleno{
 padding-top: 1em;
 padding-right: 1em;
