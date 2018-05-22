@@ -4,9 +4,21 @@
    ================================================================== */
 
 /*-- B�sico ----------------------------------------------------------*/
-ul, ul li { margin: 0; padding: 0; list-style: none; }
-h1, h2 {color:orange}; h3, p, form { margin: 0; padding: 0; } 
-.clear { clear: both; }
+ul, ul li { 
+  margin: 0; 
+  padding: 0; 
+  list-style: none;
+ }
+h1, h2 {
+  color:orange;
+}
+h3, p, form { 
+  margin: 0; 
+  padding: 0; 
+} 
+.clear { 
+  clear: both; 
+}
 .articulo h2 {
   background-color:#D2691E;
   padding:0.2em
@@ -22,7 +34,14 @@ h1, h2 {color:orange}; h3, p, form { margin: 0; padding: 0; }
   border: 2px none #777;
 }
 /*----posicionamiento-----*/
-#lateral { float: left; width: 20%; }
+#lateral { 
+  float: left; 
+  width: 20%;
+  padding: 0.5em; 
+}
+#enlaces{
+ padding-bottom: 0.5em;
+}
 #contenido { float: right; width: 76%; }
 /*-- Cabecera --------------------------------------------------------*/
 #cabecera  #logo { float: left;  }
@@ -40,26 +59,44 @@ padding-bottom: 1em;
 padding-left: 1em;
 }
 /*--publicidad--------------------------------------------------------*/
-#publicidad{border: 1px Dashed #CC6600};
-#publicidad{background-color: #F0E68C};
+#publicidad{
+  border: 1px Dashed #CC6600;
+  background-color: #F0E68C;
+  padding: 0.5em;
+}
 /*-- Menu ------------------------------------------------------------*/
-#menu ul#menu_principal li { display: inline; float: left; }
-#menu{background-image:url(fongo.gif)};
+#menu ul#menu_principal li {
+   display: inline;
+    float: left; 
+  }
+#menu{background-image:url(fongo.gif);
+}
 .relleno{
 padding-top: 0.5em;
 padding-right: 0.5em;
 padding-left: 0.5em;
 }
-#menu {border-bottom: 1px solid #004C99};
+#menu {
+  border-bottom: 1px solid #004C99;
+}
 
 
 .margen{
 margin-bottom: 0.5em;
 }
 /*-- Pie de p�gina ---------------------------------------------------*/
-#pie{border-top: 1px solid #C5C5C5} .copyright { float: right; }
-#pie {border-bottom: 1px solid #C5C5C5};
-#pie {background-color: #DCDCDC};
+#pie{
+  border-top: 1px solid #C5C5C5;
+}
+ .copyright {
+    float: right; 
+  }
+#pie {
+  border-bottom: 1px solid #C5C5C5;
+}
+#pie {
+  background-color: #DCDCDC;
+}
 .margen{
 margin-top: 1em;
 }
