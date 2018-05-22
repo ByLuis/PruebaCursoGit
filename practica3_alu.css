@@ -23,6 +23,9 @@ h3, p, form {
   background-color:#D2691E;
   padding:0.2em
 }
+body{
+  background: #cceee4;
+}
 /*-- anchura ----------------------------------------------------------*/
 #contenedor {
 	width: 90%;
