@@ -45,6 +45,22 @@ body{
 #enlaces{
  padding-bottom: 0.5em;
 }
+/*-------botones----------------------*/
+.btn{
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 2px solid #18aee7;
+  background-color: #777;
+  color: black;
+  margin: 10px 0;
+  display: inline-block;
+  transition: 0.3s;
+}
+.btn:hover{
+  transform: scale(1.2);
+  letter-spacing: 3px;
+  color: #ffffff;
+}
 #contenido { float: right; width: 76%; }
 /*-- Cabecera --------------------------------------------------------*/
 #cabecera  #logo { float: left;  }
