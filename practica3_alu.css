@@ -46,6 +46,10 @@ body{
  padding-bottom: 0.5em;
 }
 /*-------botones----------------------*/
+.botones{
+  padding: 5px;
+  margin: 10px;
+}
 .btn{
   padding: 10px 20px;
   border-radius: 5px;
